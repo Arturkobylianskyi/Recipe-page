@@ -10,9 +10,27 @@ body {
     color: hsl(30, 10%, 34%);
     background-color:hsl(30, 54%, 90%);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 44rem; /* maybe i should use another  */
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.top-image {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 2rem;
 }
 
 h1{
@@ -31,7 +49,32 @@ h3 {
     color: hsl(332, 51%, 32%);
 }
 
-.wrapper {
-    max-width: 80%;
-    background-color: hsl(0, 0%, 100%);
+.description {
+    margin: 1rem 0 1rem 0 ;
+}
+
+.preparation-time {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.preparation-time figcaption {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.approximately-time {
+    list-style: inside;
+}
+
+.approximately-time li {
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.approximately-time li::marker {
+    color: hsl(332, 51%, 32%);
 }
