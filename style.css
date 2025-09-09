@@ -45,11 +45,7 @@ h2 {
     font-family: "Young Serif", serif;
     font-weight: 400;
     color: hsl(14, 45%, 36%);
-    margin-bottom: 1.5rem;
-}
-
-h3 {
-    color: hsl(332, 51%, 32%);
+    margin-bottom: 1rem;
 }
 
 .description {
@@ -63,7 +59,8 @@ h3 {
     margin-bottom: 1.5rem;
 }
 
-.preparation-time figcaption {
+.preparation-time h2 {
+    font-family: "Outfit", sans-serif;
     color: hsl(332, 51%, 32%);
     font-weight: 600;
     font-size: 1.1rem;
@@ -108,6 +105,12 @@ hr {
     list-style-position: inside;
     margin-left: 0.5rem;
     margin-bottom: 1rem;
+}
+
+table caption {
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
 table {
